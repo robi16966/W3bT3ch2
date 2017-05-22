@@ -16,7 +16,8 @@
 	position: relative;
 	z-index: -1;
 	text-align: left;
-	margin: 15px;
+	margin: auto;
+	width: 60%;
 }
 
 </style>
@@ -34,5 +35,6 @@ include_once ('menu/menu.php');
 <p>Ďalšie informácie na <a href="http://www.mechatronika.cool">link</a></p>
 
 </div>
+<br><br><br><br>
 <?php include_once 'footer/footer.php';?>
 </body>

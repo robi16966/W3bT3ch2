@@ -28,11 +28,15 @@ include_once ('menu/menu.php');
 	border-radius: 2px;	
 }
 
-
+table,th,td { 
+  border: none; 
+  height: 30px;
+  text-align:left;
+}
 </style>
 
 
-<br><br><br>
+<br><br>
 
 <?php
 $csvFile = file('staff/ZP_dataaaa.csv');
@@ -71,7 +75,7 @@ $staffrole = array();
 
 <br><br>
 <div class="staff">
-	<table class="table" id="myTable">
+	<table class="table table-bordered" id="myTable">
 <thead>
 	<tr>
 	   <th><?php echo $lang['NAME']; ?></th><th><?php echo $lang['ROOM']; ?></th><th><?php echo $lang['PHONE']; ?></th><th><?php echo $lang['DEPARTMENT']; ?></th><th><?php echo $lang['STAFFROLE']; ?></th><th><?php echo $lang['FUNCTION']; ?></th>
@@ -100,6 +104,7 @@ $i++;
 ?> 
 </tbody>
 </table>
+<br><br><br><br>
 </div>
 
 

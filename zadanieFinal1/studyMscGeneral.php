@@ -16,8 +16,14 @@
 	position: relative;
 	z-index: -1;
 	text-align: left;
-	margin: 25px;
+	margin: auto;
 	width: 60%;
+}
+
+table,th,td { 
+  border: none; 
+  height: 30px;
+  text-align:left;
 }
 
 </style>

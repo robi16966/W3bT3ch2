@@ -20,7 +20,8 @@ include_once ('menu/menu.php');
 	position: relative;
 	z-index: -1;
 	text-align: left;
-	margin: 15px;
+	margin: auto;
+	width: 60%;
 }
 </style>
 
