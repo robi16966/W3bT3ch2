@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: MatejRábek
- * Date: 22.3.2017
- * Time: 15:03
- */
+
 
 $lang = array();
 $lang['PAGE_TITLE'] = 'Page title';
@@ -43,6 +38,9 @@ $lang['MENU_PHD'] = 'Doctoral study (PhD.)';
 $lang['MENU_GENERAL'] = 'General information';
 $lang['MENU_BSC_THESIS'] = 'Bachelor theses';
 $lang['MENU_MSC_THESIS'] = 'Master theses';
+$lang['MENU_INSTR'] = 'Instructions';
+$lang['MENU_FREE_THESIS'] = 'Free topics';
+
 $lang['MENU_LOGIN'] = 'Login';
 
 $lang['NAME'] = 'Name';
