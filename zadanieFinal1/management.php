@@ -46,9 +46,10 @@ table,th,td {
 }
 </style>
 
+<br><br>
 <h2>Vedenie ústavu</h2>
 <div id="management">
-	<table class="table">
+	<table class="table table-bordered">
 <thead>
 	<tr>
 	   <th>Funkcia</th><th>Meno</th>
@@ -67,7 +68,7 @@ table,th,td {
 <br><br>
 <h2>ODDELENIA ÚSTAVU AUTOMOBILOVEJ MECHATRONIKY</h2>
 <div class="departments">
-	<table class="table">
+	<table class="table table-bordered">
 <thead>
 	<tr><h3>Oddelenie aplikovanej mechaniky a mechatroniky (OAMM)</h3></tr>
 	<tr>
@@ -82,7 +83,7 @@ table,th,td {
 </div>
 
 <div class="departments">
-	<table class="table">
+	<table class="table table-bordered">
 <thead>
 	<tr><h3>Oddelenie informačných, komunikačných a riadiacich systémov (OIKR)</h3></tr>
 	<tr>
@@ -97,7 +98,7 @@ table,th,td {
 </div>
 
 <div class="departments">
-	<table class="table">
+	<table class="table table-bordered">
 <thead>
 	<tr><h3>Oddelenie elektroniky, mikropočítačov a PLC systémov (OEMP)</h3></tr>
 	<tr>
@@ -112,7 +113,7 @@ table,th,td {
 </div>
 
 <div class="departments">
-	<table class="table">
+	<table class="table table-bordered">
 <thead>
 	<tr><h3>Oddelenie E-mobility, automatizácie a pohonov (OEAP)</h3></tr>
 	<tr>
