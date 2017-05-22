@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: MatejRábek
- * Date: 22.3.2017
- * Time: 15:03
- */
 
 $lang = array();
 $lang = array();
@@ -44,7 +38,10 @@ $lang['MENU_PHD'] = 'Doktorandské štúdium';
 $lang['MENU_GENERAL'] = 'Všeobecné informácie';
 $lang['MENU_BSC_THESIS'] = 'Bakalárske práce';
 $lang['MENU_MSC_THESIS'] = 'Diplomové práce';
+$lang['MENU_INSTR'] = 'Pokyny';
+$lang['MENU_FREE_THESIS'] = 'Voľné témy';
 $lang['MENU_LOGIN'] = 'Prihlásenie';
+
 
 $lang['NAME'] = 'Meno';
 $lang['ROOM'] = 'Miestnosť';
