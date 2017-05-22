@@ -1,0 +1,323 @@
+header {
+  background-color: #00BFFF;
+  padding: 10px;
+  display: block;
+}
+  
+body{
+    background-color:#ccf3ff;
+}
+
+  
+footer{
+  background-color: #00BFFF;
+  height: 20px;
+  text-align:center;
+  font-size:15px;
+}
+ 
+h1 {
+  font-size: 40px;
+  text-align: left;
+}
+
+table,th,td { 
+  border: 2px solid black; 
+  height: 50px;
+  text-align:center;
+}
+
+.h1Map,.h5Map{
+  text-align:center;
+}
+
+.imgMap {
+    display: block;
+    margin-left: 240px;
+    margin-right: auto ;
+    border: 3px solid #00008B;
+}
+
+.imgMe {
+  float: left;
+}
+
+.marker1{
+  z-index:3;
+  position: absolute;
+  top: 520px;
+  left: 283px;
+  width: 40px;
+  height:44px;
+}
+.marker2{
+  z-index:1;
+  position: absolute;
+  top: 498px;
+  left: 429px;
+}
+.marker3{
+  z-index:1;
+  position: absolute;
+  top: 403px;
+  left: 890px;
+}
+.marker4{
+  z-index:1;
+  position: absolute;
+  top: 600px;
+  left: 450px;
+}
+
+.marker1:hover .tooltip, .marker2:hover .tooltip, .marker3:hover .tooltip, .marker4:hover .tooltip{
+	display:block;
+	position:absolute;
+}
+
+.tooltip{
+display: none;
+background-color:#8AFF92;
+border-radius:21px;
+padding: 5px;
+box-shadow: 6px -6px 6px #8BCF86;
+text-align: center;
+min-width:250px;
+z-index:1;
+  color: #000000;
+  line-height: 20px;
+  position: absolute;
+  bottom:100%;
+  
+}
+
+aside {
+  font-size: 25px;
+  font-family: italic;
+  float:right;
+  display: block;
+}
+
+.firstRowCol{
+  background-color: #006400; 
+}
+
+.lecture {
+  background-color: #6B8E23;
+}
+.seminar {
+  background-color: #ADFF2F;
+}
+.PE {
+  background-color: #CDCD00;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00008B;
+}
+.menuLi {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.form
+{
+  margin-left:10px;
+  margin-top:5px;
+  margin-right:600px;
+}
+
+fieldset{
+      margin-left:10px;
+  border-radius: 5px; padding: 5px; min-height:150px; border:4px solid #1f497d; background-color:#4dffa6;
+}
+legend
+{
+  margin-left:50px;
+  background-color:#006400; 
+  padding-left:20px; 
+  padding-top:5px; 
+  padding-right:30px; 
+  padding-bottom:5px; 
+  color:white; 
+  border-radius:15px; 
+  font-size:15px;
+}
+.submit {
+    margin-left:550px;
+    margin-top:10px;
+    margin-bottom:20px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.submit:disabled
+{
+      opacity: 0.6;
+    cursor: not-allowed;
+}
+/*fotog*/
+
+.site{
+  margin-top: 5px;
+  border: 2px solid blue; 
+  padding-top:20px;
+  padding-bottom: 20px;
+  padding-left:50px;
+  padding-right:50px;
+}
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  display: table;
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next,
+.start,
+.pause{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.start {
+    border-radius: 3px 0 0 3px;
+    left:46%;
+    top:95%;
+}
+.pause {
+    border-radius: 3px 0 0 3px;
+    left:50%;
+    top:95%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover,
+.start:hover,
+.pause:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.udalDiv{
+    text-align: center;
+}
+.column:hover {
+    opacity: 0.8;
+}
+.column{
+    text-align: center;
+}
+#newAlb{
+    display: none;
+}

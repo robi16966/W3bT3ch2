@@ -1,0 +1,1 @@
+<footer>Programmed and designed by team15.  All rights reserved. &copy;</footer>
