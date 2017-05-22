@@ -31,13 +31,24 @@
 					<li><a href="#"><?php echo $lang['MENU_BSC']; ?></a>
 						<ul>
 							<li><a href="studyBscGeneral.php"><?php echo $lang['MENU_GENERAL']; ?></a></li>
-							<li><a href="#"><?php echo $lang['MENU_BSC_THESIS']; ?></a></li>
+							<li><a href="#"><?php echo $lang['MENU_BSC_THESIS']; ?></a>
+								<ul>
+									<li><a href="BscInstructions.php"><?php echo $lang['MENU_INSTR']; ?></a></li>
+									<li><a href="#"><?php echo $lang['MENU_FREE_THESIS']; ?></a></li>
+								</ul>
+
+							</li>
 						</ul>
 					</li>
 					<li><a href="#"><?php echo $lang['MENU_MSC']; ?></a>
 						<ul>
 							<li><a href="studyMscGeneral.php"><?php echo $lang['MENU_GENERAL']; ?></a></li>
-							<li><a href="#"><?php echo $lang['MENU_MSC_THESIS']; ?></a></li>
+							<li><a href="#"><?php echo $lang['MENU_MSC_THESIS']; ?></a>
+								<ul>
+									<li><a href="MscInstructions.php"><?php echo $lang['MENU_INSTR']; ?></a></li>
+									<li><a href="#"><?php echo $lang['MENU_FREE_THESIS']; ?></a></li>
+								</ul>
+							</li>
 						</ul>
 					</li>
 					<li><a href="studyPhd.php"><?php echo $lang['MENU_PHD']; ?></a></li>
