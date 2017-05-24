@@ -42,6 +42,6 @@ include_once ('menu/menu.php');
 <br />
 
 <?php  $_REQUEST['fullalbum']=1; include('foliogallery.php');?>
-
+<?php include_once 'footer/footer.php';?>
 </body>
 </html>
