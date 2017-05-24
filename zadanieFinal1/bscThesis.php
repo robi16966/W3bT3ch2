@@ -49,13 +49,13 @@ foreach($tables[2]->getElementsByTagName('tr') as $row) {
     $theData[] = $rowData;
 }
 
-    echo "<br><div class='container'><div id='filterStud'>Filtrovať podľa štud. programu: <div id='studProg'></div></div> <div id='filterMen'>Filtrovať podľa mena školiteľa:\t <div id='menSkol'></div><span id='zoradit'>  Zoradiť podľa: <select id='sort' name='sort' onchange='sortTable(this);'><option value= 0> Por. </option><option value= 0> Názov </option><option value= 2> Meno školiteľa </option><option value= 3> Študijný program </option></select></span></div>";
+    echo "<br><div class='container'><div id='filterStud'>".$lang['THES_FILTR1'] ."<div id='studProg'></div></div> <div id='filterMen'>".$lang['THES_FILTR2'] ."<div id='menSkol'></div><span id='zoradit'>".$lang['THES_SORT'] ."<select id='sort' name='sort' onchange='sortTable(this);'><option value= 0>".$lang['THES_TABLE_1C']."</option><option value= 0>".$lang['THES_TABLE_2C']."</option><option value= 2>".$lang['THES_TABLE_3C']."</option><option value= 3>".$lang['THES_TABLE_4C']."</option></select></span></div>";
     echo"<table class='table table-bordered' id='tableProjekty'>";
-    echo '<thead><tr><th>Por.</th><th>Názov</th><th>Meno školiteľa</th><th>Študijný program</th></tr></thead><tbody>';
+    echo "<thead><tr><th>".$lang['THES_TABLE_1C']."</th><th>".$lang['THES_TABLE_2C']."</th><th>".$lang['THES_TABLE_3C']."</th><th>".$lang['THES_TABLE_4C']."</th></tr></thead><tbody>";
 
     $count=1;
-    $arraySkol=array("Nastaviť");
-    $arrayStud=array("Nastaviť");
+    $arraySkol=array($lang['THES_SET']);
+    $arrayStud=array($lang['THES_SET']);
     for($row=1; $row<count($theData);$row++){
         $maxObs=explode('/', ($theData[$row][8]->textContent));
         /*echo"<br>".$theData[$row][8].":  ".$maxObs[0]."---".$maxObs[1]."<br>";
