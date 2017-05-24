@@ -1,6 +1,6 @@
-#Rozdelenie uloh
+#Rozdelenie úloh<br />
 Viki: Menu + Footer + Pracovníci + Ostatné stránky<br />
-Silvester: Titulná stránka + Kontrakty + Videá + Grafika 
-Róbert:  Výskum/ Projekty + Fotogaléria + Intranet-prihlasovanie + Github + Základný template + Databáza
-Roman: Aktuality + Médiá + Databáza
-Oliver: Intranet-záložky 1-4 +  Dochádzky + Nákupy
+Silvester: Titulná stránka + Kontrakty + Videá + Grafika <br />
+Róbert:  Výskum/ Projekty + Fotogaléria + Intranet-prihlasovanie + Github + Základný template + Databáza <br />
+Roman: Aktuality + Médiá + Databáza <br />
+Oliver: Intranet-záložky 1-4 +  Dochádzky + Nákupy <br />
