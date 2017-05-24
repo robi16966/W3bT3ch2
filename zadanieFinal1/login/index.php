@@ -48,10 +48,11 @@ include_once 'menu/menu.php';
                 $query = "SELECT * FROM uzivatelia WHERE prihmeno='".$username."'";
                 $result = $conn->query($query);
                 if ($result->num_rows < 1){
-                    $query2 = "INSERT INTO uzivatelia VALUES (NULL, '".$_POST['username']."',1,0,0,0,0)";
+                    echo "<script> alert('Neplatné prihlásenie!!!'); </script>";
                 }
                 else{
                     while($row = $result->fetch_assoc()) {
+                        $_SESSION['user'] = $row[user];
                         $_SESSION['hr'] = $row[hr];
                         $_SESSION['reporter'] = $row[reporter];
                         $_SESSION['editor'] = $row[editor];
