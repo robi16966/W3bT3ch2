@@ -1,4 +1,4 @@
-#Rozdelenie úloh<br />
+# Rozdelenie úloh <br />
 Viki: Menu + Footer + Pracovníci + Ostatné stránky<br />
 Silvester: Titulná stránka + Kontrakty + Videá + Grafika <br />
 Róbert:  Výskum/ Projekty + Fotogaléria + Intranet-prihlasovanie + Github + Základný template + Databáza <br />
