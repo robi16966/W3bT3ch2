@@ -3,7 +3,7 @@
 <html lang="sk">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title><?php echo $lang['PAGE_TITLE']; ?></title>
+    <title><?php echo $lang['MENU_STAFF']; ?></title>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/styly.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">

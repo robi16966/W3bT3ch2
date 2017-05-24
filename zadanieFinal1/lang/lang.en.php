@@ -67,4 +67,4 @@ $lang['PROJ_TABLE_4C'] = 'Principal investigator';
 $lang['PROJ_TABLE_5C'] = 'Category';
 
 //anot
-$lang['ANOT'] = 'Annotation';
+$lang['PAGE_ANOT']  = 'Annotation';

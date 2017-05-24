@@ -1,7 +1,6 @@
 <?php
 
 $lang = array();
-$lang = array();
 $lang['PAGE_TITLE'] = 'Názov stránky';
 $lang['HEADER_TITLE'] = 'My website header title';
 $lang['SITE_NAME'] = 'My Website';
@@ -67,5 +66,5 @@ $lang['PROJ_TABLE_4C'] = 'Zodpovedný riešiteľe';
 $lang['PROJ_TABLE_5C'] = 'Kategória';
 
 //anot
-$lang['ANOT'] = 'Anotácia';
+$lang['PAGE_ANOT'] = 'Anotácia';
 
