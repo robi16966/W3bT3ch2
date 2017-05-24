@@ -1,7 +1,7 @@
 <ul id="nav">
 	
 	
-	<li><a href="#"><i class="fa fa-home" style="color:white;font-size:18px;">&nbsp;</i><?php echo $lang['MENU_HOME']; ?></a>
+	<li><a href="index.php"><i class="fa fa-home" style="color:white;font-size:18px;">&nbsp;</i><?php echo $lang['MENU_HOME']; ?></a>
 		<ul>
 			<li><a href="#"><?php echo $lang['MENU_ABOUT_US']; ?></a>
 				<ul>
@@ -31,10 +31,10 @@
 					<li><a href="#"><?php echo $lang['MENU_BSC']; ?></a>
 						<ul>
 							<li><a href="studyBscGeneral.php"><?php echo $lang['MENU_GENERAL']; ?></a></li>
-							<li><a href="#"><?php echo $lang['MENU_BSC_THESIS']; ?></a>
+							<li><a href="bscThesis.php"><?php echo $lang['MENU_BSC_THESIS']; ?></a>
 								<ul>
 									<li><a href="BscInstructions.php"><?php echo $lang['MENU_INSTR']; ?></a></li>
-									<li><a href="#"><?php echo $lang['MENU_FREE_THESIS']; ?></a></li>
+									<li><a href="mscThesis.php"><?php echo $lang['MENU_FREE_THESIS']; ?></a></li>
 								</ul>
 
 							</li>
