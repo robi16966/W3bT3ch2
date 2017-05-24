@@ -1,6 +1,4 @@
 <?php
-
-
 $lang = array();
 $lang['PAGE_TITLE'] = 'Page title';
 $lang['HEADER_TITLE'] = 'header title';
@@ -68,3 +66,13 @@ $lang['PROJ_TABLE_5C'] = 'Category';
 
 //anot
 $lang['PAGE_ANOT']  = 'Annotation';
+
+// free topics
+$lang['THES_TABLE_1C'] = 'Ord.';
+$lang['THES_TABLE_2C'] = 'Name';
+$lang['THES_TABLE_3C'] = 'Thesis supervisor';
+$lang['THES_TABLE_4C'] = 'Study programme';
+$lang['THES_FILTR1'] = 'Filtering by study prog.: ';
+$lang['THES_FILTR2'] = 'Filtering by thesis super.: ';
+$lang['THES_SORT'] = 'Sorting by: ';
+$lang['THES_SET'] = 'Set';

@@ -68,3 +68,12 @@ $lang['PROJ_TABLE_5C'] = 'Kategória';
 //anot
 $lang['PAGE_ANOT'] = 'Anotácia';
 
+// free topics
+$lang['THES_TABLE_1C'] = 'Por.';
+$lang['THES_TABLE_2C'] = 'Meno';
+$lang['THES_TABLE_3C'] = 'Meno školiteľa';
+$lang['THES_TABLE_4C'] = 'Študijný program';
+$lang['THES_FILTR1'] = 'Filtrovať podľa štud. programu: ';
+$lang['THES_FILTR2'] = 'Filtrovať podľa mena školiteľa: ';
+$lang['THES_SORT'] = 'Zoradiť podľa: ';
+$lang['THES_SET'] = 'Nastaviť';
