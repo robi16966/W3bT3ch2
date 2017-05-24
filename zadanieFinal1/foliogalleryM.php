@@ -43,5 +43,6 @@ include_once ('menu/menu.php');
 
 <?php  $_REQUEST['fullalbum']=1; include('foliogallery.php');?>
 <?php include_once 'footer/footer.php';?>
+<script type="text/javascript" src="colorbox/jquery.colorbox-min.js"></script>
 </body>
 </html>
