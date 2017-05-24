@@ -5,6 +5,7 @@ width:100%;
 max-width:500px;
 margin:0 auto;
 padding:0;
+z-index:-2;
 }
 
 .fg a:link, .fg a:active, .fg a:visited {outline:0;text-decoration:none;color:#004e7b;}
