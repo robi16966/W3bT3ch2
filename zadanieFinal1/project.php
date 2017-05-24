@@ -65,7 +65,16 @@ $sql = "SELECT * FROM projects";
     
     function printArrayTable($array){
         foreach($array as $tmp){
-            echo '<tr><td>'.$tmp->number."</td><td><a href='".$URL."anot.php"."?id=".$tmp->id."'>".(($_GET['lang']=='en') ? $tmp->titleEN : $tmp->titleSK).'</td><td>'.$tmp->duration.'</td><td>'.$tmp->coordinator.'</td><td>'.$tmp->category.'</td></tr>';
+            echo '<tr><td>'.$tmp->number."</td><td><a href='".$URL."anot.php"."?id=".$tmp->id."'>".(($_GET['lang']=='en') ? $tmp->titleEN : $tmp->titleSK).'</td><td>';
+            if(strlen($tmp->duration)>13){
+                $years=explode("-", $tmp->duration);
+                
+                $y1=explode(".", $years[0]);
+                $y2=explode(".", $years[1]);
+                echo $y1[2]."-".$y2[2].'</td><td>'.$tmp->coordinator.'</td><td>'.$tmp->category.'</td></tr>';
+            }
+            else
+            echo $tmp->duration.'</td><td>'.$tmp->coordinator.'</td><td>'.$tmp->category.'</td></tr>';
         }
     }
 
