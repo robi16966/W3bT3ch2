@@ -40,6 +40,9 @@ $lang['MENU_BSC_THESIS'] = 'Bachelor theses';
 $lang['MENU_MSC_THESIS'] = 'Master theses';
 $lang['MENU_INSTR'] = 'Instructions';
 $lang['MENU_FREE_THESIS'] = 'Free topics';
+$lang['MENU_BIO_MECH'] = 'Biomechatronics';
+$lang['MENU_AUT_VEH'] = 'Autonomous vehicle 6x6';
+$lang['MENU_ELE_KART'] = 'Electric kart';
 
 $lang['MENU_LOGIN'] = 'Login';
 

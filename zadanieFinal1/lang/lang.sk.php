@@ -42,6 +42,9 @@ $lang['MENU_MSC_THESIS'] = 'Diplomové práce';
 $lang['MENU_INSTR'] = 'Pokyny';
 $lang['MENU_FREE_THESIS'] = 'Voľné témy';
 $lang['MENU_LOGIN'] = 'Prihlásenie';
+$lang['MENU_BIO_MECH'] = 'Biomechatronika';
+$lang['MENU_AUT_VEH'] = 'Autonómne vozidlo 6x6';
+$lang['MENU_ELE_KART'] = 'Elektrická motokára';
 
 
 $lang['NAME'] = 'Meno';
