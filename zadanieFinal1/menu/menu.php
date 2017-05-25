@@ -59,10 +59,10 @@
 				<li><a href="project.php"><?php echo $lang['MENU_PROJECTS']; ?></a></li>
 				<li><a href="#"><?php echo $lang['MENU_RESEARCH_TOPICS']; ?></a>
 					<ul>
-						<li><a href="#">Elektrická motokára</a></li>
-						<li><a href="#">Autonómne vozidlo 6x6</a></li>
-						<li><a href="#"><?php echo $lang['MENU_3D_LED_CUBE']; ?></a></li>	
-						<li><a href="#">Biomechatronika</a></li>
+						<li><a href="eleKart.php"><?php echo $lang['MENU_ELE_KART']; ?></a></li>
+						<li><a href="autVeh.php"><?php echo $lang['MENU_AUT_VEH']; ?></a></li>
+						<li><a href="ledCube.php"><?php echo $lang['MENU_3D_LED_CUBE']; ?></a></li>	
+						<li><a href="bioMech.php"><?php echo $lang['MENU_BIO_MEH']; ?></a></li>
 					</ul>
 				</ul>
 				</li>
