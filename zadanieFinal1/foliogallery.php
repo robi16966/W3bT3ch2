@@ -253,7 +253,7 @@ if (empty($_REQUEST['album'])) // if no album requested, show all albums
 					</div>
 					<div class="caption">
                     <?php                         include ("config.php");
-                        if(  $_COOKIE['lang']=='sk')
+                        if(  $_SESSION['lang']=='en')
                             $sql = "SELECT titleEn FROM photoGalery where folder='".$albums[$i]."'";
                         else
                             $sql = "SELECT titleSk FROM photoGalery where folder='".$albums[$i]."'";
