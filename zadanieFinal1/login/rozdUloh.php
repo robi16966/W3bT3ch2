@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="sk">
 <head>
-<title>Prihlasovanie</title>
+<title>Rozdelenie úloh</title>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/styly.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -176,5 +176,6 @@ $("#odhlas").on('click', function (){
     location.replace("logout.php"); 
 });
 </script>
-
+<?php include_once 'footer/footer.php';
+?>
 </body> </html>

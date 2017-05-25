@@ -1,3 +1,3 @@
 <header>
-<h2>Webové technológie 2 IS</h2>
+<h2>Ústav automobilovej mechatroniky FEI STU IS</h2>
 </header>

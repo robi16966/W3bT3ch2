@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="sk">
 <head>
-<title>Admin</title>
+<title>Foto</title>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/styly.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">

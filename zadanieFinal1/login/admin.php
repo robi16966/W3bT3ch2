@@ -25,12 +25,10 @@ if (isset($_POST['prihmeno']) && $_POST['prihmeno']!="") {
             $admin=$_POST['admin']== "" ? 0 : 1;
             
             $sql = "UPDATE uzivatelia SET user =". $user .",  hr =". $hr .",editor =". $editor .",reporter =". $reporter .",admin = ".$admin ." WHERE prihmeno ='". $_POST['prihmeno']."'";
-            echo $sql;
         $result = $conn->query($sql);
             
         }
-echo   $_SESSION['username']; 
-echo "<div id=vit><h2>Vítáme Vás : ".$_SESSION["name"]."</h2>  <input type='button' id='odhlas'  class='btn btn-warning' value='Odhlásenie' /> </div> ";
+echo "<div id=vit><h2>Vítáme Vás : ".$_SESSION["name"]."</h2></div> ";
 
 $sql = "SELECT * FROM uzivatelia";
         $result = $conn->query($sql);
@@ -38,7 +36,7 @@ $sql = "SELECT * FROM uzivatelia";
                 <table class='table table-responsive'>
                     <thead>
                         <tr>
-                            <th>Prihlasovacie meno</th><th>user</th><th>hr</th><th>reporter</th><th>editor</th><th>admin</th><th>Ulozit</th>
+                            <th>Prihlasovacie meno</th><th>user</th><th>hr</th><th>reporter</th><th>editor</th><th>admin</th><th>Uložiť</th>
                         </tr>
                     </thead>
                     <tbody>";
@@ -46,12 +44,12 @@ $sql = "SELECT * FROM uzivatelia";
             while($row = $result->fetch_assoc()) {
                 echo "<form action='".$_SERVER['PHP_SELF']."' id='uploadForm' method='post'>". "<tr>
                 <td><input type='hidden' name='prihmeno' value='".$row["prihmeno"]."'>".$row["prihmeno"]."</td>
-                <td>"."<input type='checkbox' ".($row["user"] == true ? 'checked' : ''). " name='user' >".$row["user"]."</td>
-                <td>"."<input type='checkbox' ".($row["hr"] == true ? 'checked' : '')." name='hr'  >".$row["hr"]."</td>
-                <td>"."<input type='checkbox' ".($row["reporter"] == true ? 'checked' : '')." name='reporter'  >".$row["reporter"]."</td>
-                <td>"."<input type='checkbox' ".($row["editor"] == true ? 'checked' : '')." name='editor'  >".$row["editor"]."</td>
-                <td>"."<input type='checkbox' ".($row["admin"] == true ? 'checked' : '')." name='admin'  >".$row["admin"]."</td>
-                <td><button class = 'btn-xs btn-primary btn-block' type = 'submit' name = 'save'>Ulozit</button></td>
+                <td>"."<input type='checkbox' ".($row["user"] == true ? 'checked' : ''). " name='user' ></td>
+                <td>"."<input type='checkbox' ".($row["hr"] == true ? 'checked' : '')." name='hr'  ></td>
+                <td>"."<input type='checkbox' ".($row["reporter"] == true ? 'checked' : '')." name='reporter'  ></td>
+                <td>"."<input type='checkbox' ".($row["editor"] == true ? 'checked' : '')." name='editor'  ></td>
+                <td>"."<input type='checkbox' ".($row["admin"] == true ? 'checked' : '')." name='admin'  ></td>
+                <td><button class = 'btn-xs btn-primary btn-block' type = 'submit' name = 'save'>Uložiť</button></td>
                 </tr></form>";
             }
         } 
