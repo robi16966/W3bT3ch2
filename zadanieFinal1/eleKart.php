@@ -24,7 +24,7 @@
 include_once ('menu/menu.php');
 ?>
 
-<img id="imgMot" src="imgAbout/motokara.jpg" />
+<img id="imgMot" alt="Electric kart" src="imgAbout/motokara.jpg" />
 
 
 <?php include_once 'footer/footer.php';?>

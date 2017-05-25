@@ -24,7 +24,7 @@
 include_once ('menu/menu.php');
 ?>
 
-<img id="imgMot" src="imgAbout/biomechatronika.jpg" />
+<img id="imgMot" alt="Biomecharonics" src="imgAbout/biomechatronika.jpg" />
 
 
 <?php include_once 'footer/footer.php';?>

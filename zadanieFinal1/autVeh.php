@@ -48,7 +48,7 @@ include_once ('menu/menu.php');
 </ul>  
 </article>
 </div>
-<img id="mechatr" width="35%" src="imgAbout/eleVeh.jpg" />
+<img id="mechatr" alt="Autonomous vehicle" width="35%" src="imgAbout/eleVeh.jpg" />
 
 
 <?php include_once 'footer/footer.php';?>
