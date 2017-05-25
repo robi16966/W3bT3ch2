@@ -1,7 +1,7 @@
 <?php
 $hostnameDb = "localhost";
-$usernameDb = "team15";
-$passwordDb = "team15";
+$usernameDb = "****";
+$passwordDb = "****";
 $dbname = "zadanieFinal";
 $adServer = "ldap.stuba.sk";
 $adPort=389;
