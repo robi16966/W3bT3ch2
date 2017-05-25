@@ -1,8 +1,35 @@
 header {
-  background-color: #00BFFF;
+  font-family: Helvetica, sans-serif;
+  color: white;
+  background-color: #292929;
   padding: 10px;
   display: block;
 }
+
+header img{
+	position: relative;
+	background-color: white;
+	padding: 10px;
+	text-align: left;
+}
+
+header .aumt{
+	position relative;
+	text-align: left;
+	margin-left: 10px;
+}
+
+header #lang{
+	text-align: right;
+}
+
+header #lang img{
+	padding: 0;
+	width: 55px;
+	height: 30px;
+	margin-right: 5px;
+}
+
   
 body{
     background-color:#ccf3ff;
