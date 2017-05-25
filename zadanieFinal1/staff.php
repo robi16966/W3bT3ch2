@@ -3,7 +3,7 @@
 <html lang="sk">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title><?php echo $lang['MENU_STAFF']; ?></title>
+    <title><?php echo $lang['PAGE_TITLE']; ?></title>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/styly.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -32,6 +32,11 @@ table,th,td {
   border: none; 
   height: 30px;
   text-align:left;
+}
+
+.modal{
+	position: absolute;
+	z-index: 15;
 }
 </style>
 
@@ -86,55 +91,49 @@ $staffrole = array();
 $i=0;
 foreach ($csvFile as $line => $value) {
 $pieces = explode(";", $value);
-	echo "<tr class = 'detail'><td><a href=\"\" class = 'myBtn'>" .$pieces[2]. " " .$pieces[0]." ".$pieces[1]." ".$pieces[3]."</a></td><td>" .$pieces[6]."</td><td>" .$pieces[7]."</td><td>".$pieces[8]."</td><td>".$pieces[9]."</td><td>" .$pieces[10]."</td></tr>";
+	echo "<tr class = 'detail'><td><a data-toggle='modal' href='#myModal'  onclick='check(this)'>" .$pieces[2]. " " .$pieces[0]." ".$pieces[1]." ".$pieces[3]."</a></td><td>" .$pieces[6]."</td><td>" .$pieces[7]."</td><td>".$pieces[8]."</td><td>".$pieces[9]."</td><td>" .$pieces[10]."</td></tr>";
    	$departments[$i] = $pieces[8];
 	$staffrole[$i] = $pieces[9];
 
-?>
-
-<div class="modal">
-		
-  		<div class="modal-content">
-    		<span class="close">&times;</span>
-    		<p> bbbb </p>
-  	</div>
-<?php
 $i++;
 	}
 ?> 
 </tbody>
 </table>
+
 <br><br><br><br>
 </div>
 
+<div class="modal" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button id="closeH" type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" id="mTitle">Modal Header</h4>
+        </div>
+        <div class="modal-body" id="mBody">      
+          <?php
+    
+          ?>
+        </div>
+        <div class="modal-footer">
+        
+          <button type="button" id="close" class="btn btn-default" data-dismiss="modal"></i>Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 
 <script>
 
-$(".detail").on("click", function() {
-   idx = $(this).index();
-	console.info(idx);
-
-
-var modal = document.getElementsByClassName("modal")[idx];
-
-// Get the button that opens the modal
-var btn = document.getElementsByClassName("myBtn")[idx];
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[idx];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-    modal.style.display = "block";
+function check(a){
+    $('#mTitle').text(a.innerText);
+    $('#mBody').text($(a).children().last()[0].innerText.substr(10));
 }
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-alert("bla");
-});
 
 
 function myFunction() {
