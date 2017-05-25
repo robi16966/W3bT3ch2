@@ -5,6 +5,8 @@ $lang['HEADER_TITLE'] = 'header title';
 $lang['SITE_NAME'] = 'My Website';
 $lang['SLOGAN'] = 'My slogan here';
 $lang['HEADING'] = 'Heading';
+$lang['HEADER_AUMT'] = 'Institute of Automotive Mechatronics FEI STU';
+
 // Menu
 $lang['MENU_HOME'] = 'Home';
 $lang['MENU_ABOUT_US'] = 'About us';
