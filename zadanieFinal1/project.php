@@ -95,7 +95,7 @@ $sql = "SELECT * FROM projects";
     printArrayTable($arrayKeg1);
     printArrayTable($arrayDom1);
    // printArrayTable($arrayOst1);
-    echo '</tbody></table></div><br>';
+    echo '</tbody></table></div><br><br><br><br>';
 
             
 ?>
