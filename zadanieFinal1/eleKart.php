@@ -12,8 +12,8 @@
   <style>
   #imgMot{
     margin: 2% 10% 10% 10%;
-	z-index: -1;
 	width: 80%;
+    z-index: -2;
 }
 
 </style>

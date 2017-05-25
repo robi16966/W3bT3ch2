@@ -12,7 +12,7 @@
   <style>
   #imgMot{
     margin: 2% 10% 10% 10%;
-	z-index: -1;
+	z-index: -2;
 	width: 80%;
 }
 

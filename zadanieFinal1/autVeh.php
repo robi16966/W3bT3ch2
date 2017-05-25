@@ -22,6 +22,7 @@
 	position:absolute;
 	margin: 3%;
 	float: left;
+    z-index: -2;
 	}
 </style>
 
