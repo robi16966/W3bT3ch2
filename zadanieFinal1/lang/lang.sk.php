@@ -82,3 +82,6 @@ $lang['THES_FILTR1'] = 'Filtrovať podľa štud. programu: ';
 $lang['THES_FILTR2'] = 'Filtrovať podľa mena školiteľa: ';
 $lang['THES_SORT'] = 'Zoradiť podľa: ';
 $lang['THES_SET'] = 'Nastaviť';
+
+//LED CUBE
+$lang['LED_CUBE_TEXT'] ='Zobrazená kocka bola vytvorená v rámci diplomovej práce. Bol k nej vytvorený vzdialený prístup cez Internet, čo umožňuje užívateľovi vkladať do kocky vlastný kód, ktorý ovplyvňuje jej správanie sa.';
