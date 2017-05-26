@@ -1,0 +1,75 @@
+1. 
+
+//ak nieje rezia
+INSERT INTO rezia (reziser) VALUES ('T. Burton');
+
+
+INSERT INTO filmy(nazov, rezia_id, dlzka, imdb, www)
+ VALUES ('Alica v krajine zázrakov', (select id_rezia from rezia where reziser = 'T. Burton'), 108, 6.5,'WWW: http://www.niagara.sk/dvd-film/alica-v-krajine-zazrakov' );
+
+
+// ak nieje zaner
+INSERT INTO zanre (id_zanra, zaner) VALUES (NULL, 'rodinný');
+
+// insert zanre
+INSERT INTO filmzaner(id_filmu, id_zanra) VALUES ((select id_filmu from filmy where nazov = 'Alica v krajine zázrakov') , (select id_zanra from zanre where zaner = 'dobrodružný'));
+INSERT INTO filmzaner(id_filmu, id_zanra) VALUES ((select id_filmu from filmy where nazov = 'Alica v krajine zázrakov') , (select id_zanra from zanre where zaner = 'fantasy'));
+INSERT INTO filmzaner(id_filmu, id_zanra) VALUES ((select id_filmu from filmy where nazov = 'Alica v krajine zázrakov') , (select id_zanra from zanre where zaner = 'rodinný'));
+
+
+
+
+// insert herci
+INSERT INTO filmherci(id_filmu, id_herca) VALUES ((select id_filmu from filmy where nazov = 'Alica v krajine zázrakov') , (select id_herca from herci where meno = ' J. Depp'));
+
+
+2.
+
+UPDATE zapozicka SET predpokldany_den_vratenia= '2017-05-05'
+WHERE id_zakaznika = (select id_zakaznika from zakaznici where meno =  'J. Macháè') AND
+ id_filmu = (select id_filmu from filmy where nazov = 'Andìl smrti' ) 
+
+
+3.
+
+SELECT mesta.mesto, COUNT(zapozicka.id_filmu) FROM zapozicka 
+join zakaznici on  zakaznici.id_zakaznika = zapozicka.id_zakaznika 
+join mesta on mesta.id_mesta = zakaznici.id_mesta group by mesta.mesto order by COUNT(zapozicka.id_filmu) DESC LIMIT 1
+
+4.
+
+DELIMITER //
+CREATE PROCEDURE `vymen`(IN slovo1 varchar(30), IN slovo2 varchar(30))
+BEGIN
+
+DECLARE id1 INT;
+DECLARE id2 INT;
+
+SET id1 = (select id from test where text = slovo1);
+SET id2 = (select id from test where text = slovo2);
+
+update test set text = slovo1 where id = id2;
+update test set text = slovo2 where id = id1;
+
+END //
+DELIMITER ;
+
+
+////////////////////////////////
+call vymen('text1', 'text2')
+
+
+5.
+
+delimiter //
+create trigger zalohuj before update on test
+for each row 
+begin 
+  
+ SET new.old_text =old.text;
+
+end //
+
+
+
+
