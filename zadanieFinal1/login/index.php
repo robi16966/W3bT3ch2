@@ -34,8 +34,6 @@ include_once 'menu/menu.php';
           $bind = @ldap_bind($ldapconn, $ldaprdn, $password);
           $filter="(uid=$username)";
           if($bind){
-                $_SESSION['username'] = $username;
-                $_SESSION['user'] = true;
                 $sr = ldap_search($ldapconn, $ldaprdn, $filter);
                 $entry = ldap_first_entry($ldapconn, $sr);
                 $usrId = ldap_get_values($ldapconn, $entry, "uisid")[0];
@@ -45,13 +43,14 @@ include_once 'menu/menu.php';
                 $usrSurname = ldap_get_values($ldapconn, $entry, "sn")[0];
                 //echo($usrSurname); echo "<br />";                
                 $_SESSION['name'] = $usrName." ".$usrSurname;
-                $query = "SELECT * FROM uzivatelia WHERE prihmeno='".$username."'";
+                $query = "SELECT * FROM uzivatelia WHERE aktiv=1 AND prihmeno='".$username."'";
                 $result = $conn->query($query);
                 if ($result->num_rows < 1){
                     echo "<script> alert('Neplatné prihlásenie!!!'); </script>";
                 }
                 else{
                     while($row = $result->fetch_assoc()) {
+                        $_SESSION['username'] = $username;
                         $_SESSION['user'] = $row[user];
                         $_SESSION['hr'] = $row[hr];
                         $_SESSION['reporter'] = $row[reporter];
