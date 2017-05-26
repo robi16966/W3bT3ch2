@@ -82,6 +82,7 @@
 			</li>
 			<li><a href="#"><?php echo $lang['MENU_CONTACT']; ?></a></li>
             <li><a href="login.php"><?php echo $lang['MENU_LOGIN']; ?></a></li>
+			 <li><a href="index2.php"><?php echo $lang['intranet']; ?></a></li>
 		</ul>
 	</li>		
 </ul>
