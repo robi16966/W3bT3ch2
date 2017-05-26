@@ -75,7 +75,7 @@
 					<li><a href="media.php"><?php echo $lang['MENU_MEDIA']; ?></a></li>
 					<li><a href="#">Naše tématické web stránky</a>
 						<ul>
-							<li><a href="#">Elektromobilita</a></li>
+							<li><a href="http://www.e-mobilita.fei.stuba.sk/">Elektromobilita</a></li>
 						</ul>
 					</li>
 				</ul>
