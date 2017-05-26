@@ -1,0 +1,146 @@
+.Kontajner{
+	
+	background-color: white;
+	border: 1px solid black;
+	position:relative;
+    margin:auto;
+    width: 600px;
+    height: 600px; 
+	overflow:auto;
+	display:none;
+	
+}
+
+
+#cpp{
+	
+	width: 200px;
+    height: 100px; 
+}
+
+
+
+			.current-row{background-color:#B24926;color:#FFF;}
+			.current-col{background-color:#1b1b1b;color:#FFF;}
+			.tbl-qa{width: 100%;font-size:0.9em;background-color: #f5f5f5;}
+			.tbl-qa th.table-header {padding: 5px;text-align: left;padding:10px;}
+			.tbl-qa .table-row td {padding:10px;background-color: #FDFDFD;}
+
+#Kontajner_Pedagogika{
+	
+}
+
+#Kontajner_Doktorandi{
+	
+
+}
+
+#Kontajner_Publikacie{
+	
+	
+}
+
+#Kontajner_Sluzobne_cesty{
+	
+	
+}
+
+#Kontajner_Dochadzka{
+	
+	background-color: white;
+	border: 1px solid black;
+	position:relative;
+    margin:auto;
+    width: 1800px;
+    height: 500px; 
+	overflow:auto;
+
+	
+	
+
+}
+
+#Kontajner_Nakupy{
+	
+
+}
+
+#Kontajner_Rozdelenie_uloh{
+	
+
+}
+
+#nepritomnost_select{
+	
+	display:none;
+}
+
+.Dovolenka{
+	background-color:blue;
+	
+}
+
+.PN{
+	background-color:red;
+	
+}
+
+.OCR{
+	
+	background-color:green;
+}
+
+.Plan_Dovolenky{
+	
+	background-color:purple;
+}
+
+.Sluzobna_cesta{
+	background-color:yellow;
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+#wuuky{
+	
+	z-index:20;
+	position:absolute:
+	background-color:black;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
