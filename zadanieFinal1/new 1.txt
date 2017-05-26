@@ -1,4 +1,5 @@
-CREATE TABLE `filmy` (
+﻿CREATE TABLE `filmy` (
+bla bla
   `ID` int(11) NOT NULL,
   `NAZOV` char(50) CHARACTER SET utf8 COLLATE utf8_slovak_ci NOT NULL,
   `ROK` year(4) NOT NULL,
