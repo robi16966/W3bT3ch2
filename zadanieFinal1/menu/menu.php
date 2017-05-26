@@ -67,7 +67,7 @@
 				</ul>
 				</li>
 			</li>
-			<li><a href="#"><?php echo $lang['MENU_NEWS']; ?></a></li>
+			<li><a href="aktuality.php"><?php echo $lang['MENU_NEWS']; ?></a></li>
 			<li><a href="#"><?php echo $lang['MENU_ACTIVITIES']; ?></a>
 				<ul>
 					<li><a href="foliogalleryM.php"><?php echo $lang['MENU_PHOTOS']; ?></a></li>
