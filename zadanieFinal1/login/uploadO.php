@@ -1,5 +1,4 @@
 <?php
-include 'index2.php';
 	if (isset($_FILES['file'])) {
         $file=$_FILES['file'];
 	//echo $_POST['Kontajner_select']."<br>";
@@ -46,6 +45,7 @@ include 'index2.php';
 			
 		}
     }
+    header("Location:index.php");
 
 
 

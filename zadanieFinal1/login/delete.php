@@ -3,7 +3,7 @@ function func2($data){
 	
 	//echo $data."<br>";
 	$files = scandir($data);
-	echo "<form method='post' action='index2.php' id=delete_file>";
+	echo "<form method='post' action='index.php' id=delete_file>";
 	echo "vymaz:"."<select name='Select_delete3'>";
 	   echo "<option>-----</option>";
 	foreach($files as $file) {

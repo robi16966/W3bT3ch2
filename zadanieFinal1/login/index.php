@@ -16,6 +16,10 @@ include_once 'menu/menu.php';
 ?>
 <h1>Prihlásenie do systému cez LDAP</h1>
 <?php 
+if(unlink(realpath($_POST['Select_delete3'])))
+{	
+echo "file uspesne zmazany";
+}
     require('../config.php');
     date_default_timezone_set('Slovakia/Bratislava');
    session_start();
@@ -66,11 +70,12 @@ include_once 'menu/menu.php';
                     @ldap_close($ldap);
             }        
     } 
+    if(unlink(realpath($_POST['Select_delete3'])))
+	echo "file uspesne zmazany";
    }
    else{
        header('Location: logined.php');
    }
-    
 
 ?> <!-- /container -->
       

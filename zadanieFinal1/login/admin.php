@@ -31,7 +31,6 @@ if (isset($_POST['prihmeno']) && $_POST['prihmeno']!="") {
 if (isset($_POST['userUp']) && $_POST['userUp']!="") {    
             $user=$_POST['userUp'];
             $sql = "SELECT * FROM uzivatelia WHERE prihmeno='".$user."'";
-            echo "a";
             $result = $conn->query($sql);
             if ($result->num_rows < 1) {
                 $sql = "INSERT INTO uzivatelia (`id`, `prihmeno`, `user`, `hr`, `reporter`, `editor`, `admin`) VALUES (NULL,'".$user."','1','0','0','0','0')";

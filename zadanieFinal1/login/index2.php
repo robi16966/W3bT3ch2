@@ -388,6 +388,7 @@ echo "vymaz:"."<select name='Select_delete' onchange=hop(this.value) >
 
 if(unlink(realpath($_POST['Select_delete3'])))
 {
+    header("Location:index.php");
 	echo "file uspesne zmazany";
 	
 	
@@ -465,7 +466,7 @@ echo"</table>";
 
 
 
-
+header("Location:index.php");
 ?>
  <!--//.......................................................NAKUPy........................................................//-->
 
