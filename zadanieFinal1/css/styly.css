@@ -371,10 +371,12 @@ z-index: 10;
  background: #e5e5e5;
  float: left;
  margin: 0; padding: 0;
+ z-index: 10;
 }
 
 #nav li a, #nav li {
  float: left;
+  z-index: 10;
 }
 
 #nav li {

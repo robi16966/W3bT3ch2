@@ -43,7 +43,7 @@ V súčasnosti Ústav automobilovej mechatroniky zabezpečuje výskum, vývoj a 
 </article>
 </div>
 <img id="mechatr" src="imgAbout/mechatronics.jpg" />
-
+<br><br><br><br>
 
 <?php include_once 'footer/footer.php';?>
 </body>

@@ -115,6 +115,10 @@ function skDate($mySqlDate) {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.col-sm-4{
+        /*z-index: -1;*/
+    }
+}
 </style>
 </head>
 <body>
