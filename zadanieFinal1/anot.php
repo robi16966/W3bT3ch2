@@ -30,7 +30,7 @@ $sql = "SELECT * FROM projects WHERE id=".$_GET['id'];
                 echo "<h4>".$lang['PROJ_TABLE_3C'].":</h4>".$row[duration];
                 echo "<h4>".$lang['PROJ_TABLE_4C'].":</h4>".$row[coordinator];
                 echo "<h4>".$lang['PROJ_TABLE_5C'].":</h4>".$row[projectType];
-                echo "<h4>".$lang['ANOT'].":</h4>".(($_GET['lang']=='en') ? $row[annotationEN] : $row[annotationSK])."<br></div><br><br>";
+                echo "<h4>".$lang['PAGE_ANOT'].":</h4>".(($_GET['lang']=='en') ? $row[annotationEN] : $row[annotationSK])."<br></div><br><br>";
             }
         } 
         else
