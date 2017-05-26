@@ -71,7 +71,7 @@
 			<li><a href="#"><?php echo $lang['MENU_ACTIVITIES']; ?></a>
 				<ul>
 					<li><a href="foliogalleryM.php"><?php echo $lang['MENU_PHOTOS']; ?></a></li>
-					<li><a href="#"><?php echo $lang['MENU_VIDEO']; ?></a></li>
+					<li><a href="videos.php"><?php echo $lang['MENU_VIDEO']; ?></a></li>
 					<li><a href="media.php"><?php echo $lang['MENU_MEDIA']; ?></a></li>
 					<li><a href="#">Naše tématické web stránky</a>
 						<ul>
@@ -80,7 +80,7 @@
 					</li>
 				</ul>
 			</li>
-			<li><a href="#"><?php echo $lang['MENU_CONTACT']; ?></a></li>
+			<li><a href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a></li>
             <li><a href="login.php"><?php echo $lang['MENU_LOGIN']; ?></a></li>
 		</ul>
 	</li>		
