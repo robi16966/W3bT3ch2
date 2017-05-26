@@ -7,6 +7,12 @@ $lang['SITE_NAME'] = 'My Website';
 $lang['SLOGAN'] = 'My slogan here';
 $lang['HEADING'] = 'Heading';
 $lang['HEADER_AUMT'] = 'Ústav automobilovej mechatroniky FEI STU';
+$lang['TITLE_PAGE_GREET']='Pekný deň Vám praje tim developerov FEI STU';
+$lang['TITLE_PAGE_CREATE']='Na tejto web-stránke pracovali:';
+$lang['ADDRESS']='Ústav automobilovej mechatroniky
+Fakulta elektrotechniky a informatiky STU v Bratislave
+Ilkovičova 3
+812 19 Bratislava, Sloven­sko';
 
 // Menu
 $lang['MENU_HOME'] = 'Domov';
