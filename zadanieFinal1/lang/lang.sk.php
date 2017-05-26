@@ -85,3 +85,4 @@ $lang['THES_SET'] = 'Nastaviť';
 
 //LED CUBE
 $lang['LED_CUBE_TEXT'] ='Zobrazená kocka bola vytvorená v rámci diplomovej práce. Bol k nej vytvorený vzdialený prístup cez Internet, čo umožňuje užívateľovi vkladať do kocky vlastný kód, ktorý ovplyvňuje jej správanie sa.';
+$lang['intranet']='Intranet';

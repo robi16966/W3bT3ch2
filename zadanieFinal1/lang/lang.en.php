@@ -84,3 +84,5 @@ $lang['THES_SET'] = 'Set';
 
 //LED CUBE
 $lang['LED_CUBE_TEXT'] ='Displayed cube was created within the diploma thesis. It was created for remote access via the Internet. It allows the user to insert custom code blocks and in this way to influence its behavior.';
+
+$lang['intranet']='Intranet';
