@@ -29,6 +29,7 @@ echo '<li class="menuLi"><a href="doktor.php">Doktorandi</a></li>';
 echo '<li class="menuLi"><a href="odkaz.php">Odkazy</a></li>';
 echo '<li class="menuLi"><a href="nakupy.php">Nákupy</a></li>';
 echo '<li class="menuLi"><a href="dochad.php">Dochádzka</a></li>';
+echo '<li class="menuLi"><a href="aktuality.php">Aktuality</a></li>';
 echo '<li class="menuLi"><a href="rozdUloh.php">Rozdelenie úloh</a></li>';
 echo '<li class="menuLi"><a href="logout.php">Odhlásenie</a></li>';
 }
