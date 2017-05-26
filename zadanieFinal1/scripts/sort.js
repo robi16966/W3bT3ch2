@@ -47,8 +47,11 @@ filterMeno='';
 filterStud='';
 function filtrTableStud(key) {
   var table, tr, td, i;
+  //window.alert(key.value.toUpperCase());
   filterStud = key.value.toUpperCase();
-  if(new String(filterStud).valueOf()==new String("NASTAVIç").valueOf())
+  if(new String(filterStud).valueOf()==new String("SET").valueOf())
+      filterStud="";
+  if(new String(filterStud).valueOf()==new String("NASTAVI≈§").valueOf())
       filterStud="";
   table = document.getElementById("tableProjekty");
   tr = table.getElementsByTagName("tr");
@@ -66,9 +69,12 @@ function filtrTableStud(key) {
 }
 
 function filtrTableMeno(key) {
+    //window.alert(key.value.toUpperCase());
   var table, tr, td, i;
   filterMeno = key.value.toUpperCase();
-  if(new String(filterMeno).valueOf()==new String("NASTAVIç").valueOf())
+  if(new String(filterMeno).valueOf()==new String("SET").valueOf())
+      filterMeno="";
+  if(new String(filterMeno).valueOf()==new String("NASTAVI≈§").valueOf())
       filterMeno="";
   table = document.getElementById("tableProjekty");
   tr = table.getElementsByTagName("tr");
@@ -83,6 +89,7 @@ function filtrTableMeno(key) {
       }
     }       
   }
+    
 }
 
 $( "#studProg" ).replaceWith( $( "#filtrStud" ) );
