@@ -1,0 +1,51 @@
+body {
+	background: #a0a0a0;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+
+#googlemap {
+	width: 500px;
+	height: 500px;
+	margin-right: auto;
+}
+
+
+#streetview {
+	width: 500px;
+	height: 500px;
+	float:left;
+}
+
+
+.maplabel {
+	color: #bada55;
+	background-color: #303030;
+	font-family: "Lucida Grande", "Arial", sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	width: 120px;
+	border: 1px solid #101010;
+	border-radius: 5px;
+/*	white-space: nowrap;*/
+	word-wrap:normal;
+}
+
+.container {
+	display: inline-block;
+	clear: both;
+}
+
+ul {
+	list-style: none;
+}
+
+#routeForm {
+	width: 500px;
+}
