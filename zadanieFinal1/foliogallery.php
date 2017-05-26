@@ -223,7 +223,7 @@ if (empty($_REQUEST['album'])) // if no album requested, show all albums
 		$start = ($currentPage * $numPerPage) - $numPerPage; ?>
 	     
 		<div class="p10-lr">
-        	<span class="title">Photo Gallery</span> - <?php echo $numAlbums; ?> albums
+        	<span class="title"><?php echo $lang['MENU_PHOTOS'];?></span> - <?php echo $numAlbums; ?> album
         </div>
 	  
         <div class="clear"></div>

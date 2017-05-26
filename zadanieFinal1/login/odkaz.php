@@ -21,11 +21,11 @@ if(!(empty($_SESSION['username']))){
  echo "<br><div style='margin: 0 10%'><form method='post' action='odkaz.php'>
     
 	Pridaj kategóriu odkazu:
-	<input type='text' name='kategoria' required>   
+	<input  required type='text' name='kategoria' required>   
 	Pridaj názov odkazu:
-	<input type='text' name='nazov' required>   
+	<input required type='text' name='nazov' required>   
 	Pridaj URL odkazu:
-	<input type='text' name='url' required>
+	<input required type='text' name='url' required>
 	<input type='hidden' name='Kontajner_select' value='Kontajner_Odkazy'>
     <input type='submit' value='Upload' name='submit2'>
 	
